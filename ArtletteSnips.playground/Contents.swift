@@ -7,8 +7,7 @@ let containerView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 375.0, height: 6
 containerView.backgroundColor = UIColor.whiteColor()
 XCPlaygroundPage.currentPage.liveView = containerView
 
-let view = UIView(frame:CGRect(x:0, y:0, width:100, height:100))
-view.backgroundColor = UIColor.blackColor()
-containerView.addSubview(view)
+let shapeView = ShapeView(frame: CGRect(x: 0, y: 0, width: 50, height: 50), color: UIColor.redColor())
+containerView.addSubview(shapeView)
 
-print("heelo")
+print("hello")
