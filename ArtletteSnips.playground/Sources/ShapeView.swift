@@ -6,7 +6,7 @@ public class ShapeView: UIView {
         
         super.init(frame: frame)
         self.backgroundColor = color
-        self.layer.cornerRadius = frame.size.width/5
+        self.layer.cornerRadius = frame.size.width/2
         self.layer.shadowColor = UIColor.blackColor().CGColor
         self.layer.shadowOffset = CGSizeMake(-3.0, 5.0)
         self.layer.shadowOpacity = 0.4
